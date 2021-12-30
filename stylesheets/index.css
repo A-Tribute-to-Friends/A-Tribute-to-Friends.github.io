@@ -1,12 +1,18 @@
-img.logo {
-    image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+body {
+    margin: 0;
 }
-#wawa {
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container .logo {
+    image-rendering: pixelated;
+    width: 512px;
+    height: 64px;
+}
+
+.welcome {
     text-align: center;
     color: magenta;
     font-size: 1.5em;
